@@ -1,11 +1,10 @@
-import React from 'react'
+import Button from '@/app/components/Button'
 
-const page = () => {
+export default function Mission() {
     return (
         <main className="mt-10">
             <div>This is mission page in about</div>
+            <Button/>
         </main>
     )
 }
-
-export default page
